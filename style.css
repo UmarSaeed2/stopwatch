@@ -7,7 +7,7 @@
 html{
     font-size: 62%;
 }
-h1{
+h3{
     color: #ffffff;
     margin-top: 20px;
     font-weight: 100;
@@ -80,3 +80,34 @@ button:active{
         width: 70px;
         padding: 10px;
         }
+
+ @media screen and (max-width: 270px) {
+    #stopwatch{
+        font-size: 6rem;
+        }
+    button{
+        font-size: medium;
+        width: 60px;
+        padding: 8px;
+        }
+
+ @media screen and (max-width: 240px) {
+     #stopwatch{
+        font-size: 5rem;
+        }
+    button{
+        font-size: medium;
+        width: 50px;
+        padding: 6px;
+        }
+
+@media screen and (max-width: 210px) {
+    #stopwatch{
+    font-size: 4rem;
+            }
+    button{
+        font-size: small;
+        width: 40px;
+        padding: 4px;
+        }
+    }
