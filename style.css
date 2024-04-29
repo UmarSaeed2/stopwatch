@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html{
+    font-size: 62%;
+}
+.container{
+    margin: auto;
+    background: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#stopwatch{
+    font-size: 10rem;
+    box-shadow: 0px 0px 10px #000000;
+    padding: 5px;
+    color: #ffffff;
+    border: 10px;
+    margin-bottom: 10px;
+}
+
+#buttons{
+    display: flex;
+}
+
+button{
+    padding: 15px;
+    background-color: #ffa6007c;
+    border: none;
+    border-radius: 100px;
+    color: #ffffff;
+    font-size: x-large;
+    margin: 10px;
+    width: 100px;
+    box-shadow: 5px 5px 1px rgba(0, 0, 0, 0.4);
+    transition: all 0.5s;
+}
+
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    box-shadow: none;
+    background: #000000;
+    transition: all 0.5;
+}
+
+@media screen and (max-width: 385px) {
+    #stopwatch{
+        font-size: 8rem;
+        }
+    button{
+        font-size: larger;
+        width: 80px;
+        }
+
+  }
+
+  @media screen and (max-width: 300px) {
+    #stopwatch{
+        font-size: 7rem;
+        }
+    button{
+        font-size: large;
+        width: 70px;
+        }
+
+ 
